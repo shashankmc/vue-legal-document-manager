@@ -12,7 +12,7 @@
       "require": "./dist/vue-legal-document-manager.umd.cjs",
       "types": "./dist/index.d.ts"
     },
-    "./style.css": "./dist/vue-legal-document-manager.css"
+    "./style.css": "./dist/style.css"
   },
   "files": [
     "dist"
