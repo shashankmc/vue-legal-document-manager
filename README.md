@@ -1,6 +1,6 @@
 # vue-legal-document-manager
 
-BlueLab document manager: review what retrieval found — exclude instruments
+Document manager: review what retrieval (or other methods) found — exclude instruments
 with a reason, add ones it missed, tick provisions in or out, read the full
 text. Every decision is logged as provenance. Takes **`ranked-provisions@1`**
 in, gives **`provision-set@1`** out.
@@ -88,6 +88,3 @@ npm install
 npm test        # vitest component + helper tests
 npm run build   # library build to dist/
 ```
-
-Tests map to Appendix D.3 (#17–#28), D.4 (#29–#36, #38) and D.6 (#45, #46) of
-the BlueLab modularization plan.

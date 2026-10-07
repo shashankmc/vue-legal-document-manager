@@ -12,7 +12,7 @@
       "require": "./dist/vue-legal-document-manager.umd.cjs",
       "types": "./dist/index.d.ts"
     },
-    "./style.css": "./dist/vue-legal-document-manager.css"
+    "./style.css": "./dist/style.css"
   },
   "files": [
     "dist"
@@ -21,7 +21,8 @@
     "build": "vite build && node scripts/copy-types.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
   },
   "keywords": [
     "vue",
